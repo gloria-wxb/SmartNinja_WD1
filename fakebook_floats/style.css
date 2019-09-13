@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F8F8;
+}
+
+.header-background {
+    background-color: #0E3C66;
+    width: 100%;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px 0px;
+    overflow: hidden;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 a:visited {
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    float: left;
+    padding-left: 25px;
+}
+
+.search {
+    float: right;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+.los {
+    width: 50px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #F8F8F8;
+    height: 550px;
+    border-right: 0.5px solid grey;
+    border-left: 0.5px solid grey;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.overview {
+    float: left;
+    width: 100%;
+}
+
+.avatar {
+    height: 220px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 50px;
+}
+
+.avatar:hover {
+    border-radius: 0%;
+}
+
+.username {
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.button-add {
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.button-add:hover {
+    color: white;
+    background-color: grey;
+    font-style: italic;
+}
+
+.info {
+    float: left;
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.info p {
+    color: #272727;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.message {
+    float: left;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.submit {
+    float: right;
+    height: 25px;
+    width: 60px;
+}
+
+.submit:hover {
+    background-color: grey;
+    color: white;
+    font-style: italic;
+}
+
+.footer {
+  background-color: #DCDCDC;
+  height: 50px;
+}
+
+.inner-footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+p.footer {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    float: left;
+}
+
+.impressum {
+    margin-right: 30px;
+    float: right;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.impressum:hover {
+    color: #494949;
+    font-weight: bold;
+}
+
+.impressum:visited {
+    color: #000000;
+}

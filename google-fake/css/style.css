@@ -1,0 +1,148 @@
+* {
+    font-family: "Helvetica", "Arial", sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+.top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.top a {
+    font-size: 13px;
+    font-weight: light;
+    margin: 4px 8px;
+    }
+
+.top a:hover {
+    text-decoration: underline;
+    color: #8c8c8c;
+}
+
+.apps-icon {
+    height: 23px;
+    width: 23px;
+}
+
+.apps-icon:hover {
+    opacity: 0.7;
+}
+
+.profile-pic {
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    background-color: #d4d4d4;
+}
+
+.main {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    height: 450px;
+}
+
+#logo {
+    height: 330px;
+    margin-bottom: -85px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    border: .5px solid #d9d9d9;
+    height: 45px;
+    width: 580px;
+    border-radius: 25px;
+}
+
+.searchbar:hover {
+    box-shadow: 0px 2px 7px #d9d9d9;
+}
+
+.search-text {
+    width: 85%;
+    height: 98%;
+    border: 0;
+    padding-left: 10px;
+}
+
+img.lupe {
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+}
+
+img.mic {
+    height: 20px;
+    margin-right: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.click-me {
+    padding: 10px 17px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    margin: 20px 3px;
+    color: #666666;
+    border-radius: 5px;
+}
+
+.click-me:hover {
+    color: #000;
+    border: .5px solid #8c8c8c;
+}
+
+footer {
+    width: 100%;
+    font-size: 15px;
+    color: #666666;
+    background-color: #f0f0f0;      /*f2f4f5 */
+    position: absolute;
+    bottom: 0;
+}
+
+.top-footer {
+    font-size: 14px;
+    padding: 12px 30px;
+    border-top: .5px solid #d9d9d9;
+}
+
+.bottom-footer {
+    padding: 12px 20px;
+    border-top: .5px solid #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer a {
+    font-size: 13px;
+    color: #666666;
+    margin: 0 10px;
+    text-align: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

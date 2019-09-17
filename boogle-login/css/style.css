@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    width: 450px;
+    height: 500px;
+    margin: 80px auto 25px;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+#logo {
+    width: 75px;
+    margin: 20px auto 20px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+.headingSubtext {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 370px;
+    height: 55px;
+    border: 1px solid #c7c7c7;
+    border-radius: 3px;
+    margin-bottom: 13px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.forgot-mailadress {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.forgot-button {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+.text {
+    font-size: 14px;
+    color: #666666;
+    margin: 10px 0 20px;
+}
+
+.more-info a {
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+.letzte-zeile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.konto-erstellen a {
+    font-size: 14px;
+    color: #1a73e8;
+}
+
+.weiter-button {
+    height: 35px;
+    width: 90px;
+    text-align: center;
+}
+
+.weiter-button a {
+    padding: 10px 25px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #1a73e8;
+    border-radius: 3px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 450px;
+    font-size: 12px;
+    display: inline-flex;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 12px;
+    background-color: inherit;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown-content {
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    padding: 7px 10px;
+}
+
+.footer-right {
+    display: flex;
+    margin-left: auto;
+}
+
+.footer-right a {
+    color: #828282;
+    margin-left: 20px;
+    font-weight: bold;
+}
